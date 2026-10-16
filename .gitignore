@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Java build output
+*.class
+bin/
+target/
+*.jar
+
+# C++ build output
+*.o
+*.obj
+*.exe
+dpi_engine.exe
+packet_analyzer.exe
+dpi_simple.exe
+CMakeSettings.json
+CMakeFiles/
+CMakeCache.txt
+
+# OS / IDE
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# Output captures
+output.pcap
+filtered_output.pcap
+result.pcap
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

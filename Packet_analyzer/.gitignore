@@ -1,0 +1,26 @@
+# Java build output
+*.class
+bin/
+target/
+*.jar
+
+# C++ build output
+*.o
+*.obj
+*.exe
+dpi_engine.exe
+packet_analyzer.exe
+dpi_simple.exe
+CMakeSettings.json
+CMakeFiles/
+CMakeCache.txt
+
+# Captures
+output.pcap
+filtered_output.pcap
+result.pcap
+
+# OS & IDE
+.DS_Store
+.idea/
+.vscode/
