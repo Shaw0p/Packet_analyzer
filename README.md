@@ -1,4 +1,17 @@
-# DPI Engine - Deep Packet Inspection System
+# 🔬 DPI Engine — Deep Packet Inspection System
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-packet--analyzer--dpi.vercel.app-00f2fe?style=for-the-badge&logo=vercel&logoColor=white)](https://packet-analyzer-dpi.vercel.app)
+[![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+> **🚀 Live Demo:** [https://packet-analyzer-dpi.vercel.app](https://packet-analyzer-dpi.vercel.app)
+
+A production-grade **Deep Packet Inspection (DPI) engine** that analyzes real network traffic (PCAP files), identifies applications by inspecting TLS SNI / HTTP Host headers, enforces firewall rules, and visualizes everything in a real-time web dashboard.
+
+Built from scratch in **Java** with a **Next.js** interactive dashboard — deployable on Vercel in one click.
+
+---
 
 This document explains **everything** about this project - from basic networking concepts to the complete code architecture across **Java**, **Next.js (Web/Vercel)**, and **C++**. After reading this, you should understand exactly how packets flow through the system without needing to read the code.
 
